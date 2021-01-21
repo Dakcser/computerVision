@@ -11,7 +11,7 @@ predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
 while True:
 
     _, frame = cap.read()
-    # grey scale format, requires less processing, but video should be well illuminated
+    # grey scale format, requires less processing. Video should be well illuminated
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     faces = detector(gray)
 
@@ -22,11 +22,12 @@ while True:
         x2 = face.right()
         y2 = face.bottom()
 
-        #draw frame using coordinates, colour of rectangle = green, thickness = 3
+        #draw a box around the face by using coordinates, colour of rectangle = green, thickness = 3
         cv2.rectangle(frame, (x1, y1), (x2, y2), (0,255, 0), 3)
 
         landmarks = predictor(gray, face)
 
+        #Map landmarks to coordinates in the matrix
         for n in range(0, 68):
             x = landmarks.part(n).x
             y = landmarks.part(n).y
@@ -34,6 +35,7 @@ while True:
 
     cv2.imshow("Frame", frame)
 
+    #Stops closing the window, as long as program is running
     key = cv2.waitKey(1)
     if key == 27:
         break
