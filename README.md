@@ -6,10 +6,19 @@ Ennen aloitusta tarkista että Pip install on päivitetty mahdollisimman uuteen 
 pip install --upgrade
 ````
 ___
+###Numpy
+<span style="color:orange">*NumPy is a library to add support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.*</span>.</p>
+
+Tämä löytyy hyvin todennäköisesti jo koneelta, mutta jos ei löydy sen saa asennettua käskyllä:
+
+````
+pip install numpy
+````
+___
 ###OpenCV 2
-*OpenCV is a cross-platform library using which we can develop real-time computer vision applications. 
+<span style="color:orange">*OpenCV is a cross-platform library using which we can develop real-time computer vision applications. 
 It mainly focuses on image processing, video capture and analysis including features like face detection 
-and object detection.*
+and object detection.*</span>.</p>
 
 Asennusohjeet: https://pypi.org/project/opencv-python/
 
@@ -22,8 +31,8 @@ pip install opencv-python
 Käsky antaa automaattisesti cv2 kirjaston, joka sopii python 3.6+ kanssa.
 ___
 ###Dlib
-*Dlib is a modern C++ toolkit containing machine learning algorithms and tools for creating 
-complex software in C++ to solve real world problems.*
+<span style="color:orange">*Dlib is a modern C++ toolkit containing machine learning algorithms and tools for creating 
+complex software in C++ to solve real world problems.*</span>.</p>
 
 Asennusohjeet https://pypi.org/project/dlib/18.17.100/
 
