@@ -76,7 +76,7 @@ Files > Settings > "Project:<nameofyourproject> > Project Interpreter
 3. Asenna paketti 
 4. Tarkista uudestaan Project Interpreter löytääkö IDE tarvittavat paketit
 
-![](Dlib.png)
+![](dlib.png)
 
 
 
