@@ -79,4 +79,14 @@ Files > Settings > "Project:<nameofyourproject> > Project Interpreter
 ![](dlib.png)
 
 
+###Possible new libraries
+-MSS  2.0.0 (An ultra fast cross-platform multiple screenshots module in pure python using ctypes)
+```shell
+pip install mss==2.0.0
+```
 
+-pillow 8.1.0 (PIL is the Python Imaging Library)\
+**Notice/beware!** (Pillow and PIL cannot co-exist in the same environment.)
+```shell
+pip install --upgrade Pillow
+```
