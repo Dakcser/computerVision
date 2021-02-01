@@ -1,12 +1,12 @@
 
-##Installing libraries
+#Installing libraries
 
 Ennen aloitusta tarkista että Pip install on päivitetty mahdollisimman uuteen versioon
 ````shell
 pip install --upgrade
 ````
 ___
-###Numpy
+##Numpy
 <span style="color:orange">*NumPy is a library to add support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.*</span>.</p>
 
 Tämä löytyy hyvin todennäköisesti jo koneelta, mutta jos ei löydy sen saa asennettua käskyllä:
@@ -15,10 +15,10 @@ Tämä löytyy hyvin todennäköisesti jo koneelta, mutta jos ei löydy sen saa 
 pip install numpy
 ````
 ___
-###OpenCV 2
+##OpenCV 2
 <span style="color:orange">*OpenCV is a cross-platform library using which we can develop real-time computer vision applications. 
 It mainly focuses on image processing, video capture and analysis including features like face detection 
-and object detection.*</span>.</p>
+and object detection.*</span></p>
 
 Asennusohjeet: https://pypi.org/project/opencv-python/
 
@@ -30,9 +30,9 @@ pip install opencv-python
 ``` 
 Käsky antaa automaattisesti cv2 kirjaston, joka sopii python 3.6+ kanssa.
 ___
-###Dlib
+##Dlib
 <span style="color:orange">*Dlib is a modern C++ toolkit containing machine learning algorithms and tools for creating 
-complex software in C++ to solve real world problems.*</span>.</p>
+complex software in C++ to solve real world problems.*</span></p>
 
 Asennusohjeet https://pypi.org/project/dlib/18.17.100/
 
@@ -40,7 +40,7 @@ Asennusohjeet https://pypi.org/project/dlib/18.17.100/
 Asenna Dblib kirjasto cmd:ssä, (järjestyksenvalvoja oikeuksilla). 
 
 [CMD saa auki painamalla win nappia ja kirjoittamalla cmd, oikea klikkaamalla ikonia ja valitsemalla admin]
-![](cmd.png)
+![](pics/cmd.png)
 
 Asennuskäskyn voi kopioida ja liittää suoraan ikkunaan
 ```
@@ -55,7 +55,7 @@ Files > Settings > "Project:<nameofyourproject> > Project Interpreter
 
 Mistä näkee paketit mitä projektisi käyttää virtuaali ympäristössään
 
-![Project Interpreter view](project_interpreter_view.png)
+![Project Interpreter view](pics/project_interpreter_view.png)
 ___
 
 ##Ongelmia asennuksen kanssa
@@ -67,7 +67,7 @@ ikkunan alakulmassa.
 ```
 Files > Settings > "Project:<nameofyourproject> > Project Interpreter
 ```
-![](plusButton.png)
+![](pics/plusButton.png)
 
 
 
@@ -76,7 +76,12 @@ Files > Settings > "Project:<nameofyourproject> > Project Interpreter
 3. Asenna paketti 
 4. Tarkista uudestaan Project Interpreter löytääkö IDE tarvittavat paketit
 
-![](dlib.png)
+![](pics/dlib.png)
 
+##Other Stuff
+Tällä hetkellä löytyy "ScreenCapture" branch Masterin lisäksi, jota kannattaa myös vilkaista.
+
+Olen käyttänyt Issue tabia documentaationa muutoksille ja uusille ominaisuuksille, sinne voi mennä 
+kommentoimaan.
 
 
