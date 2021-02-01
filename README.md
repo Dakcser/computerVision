@@ -79,6 +79,7 @@ Files > Settings > "Project:<nameofyourproject> > Project Interpreter
 ![](pics/dlib.png)
 
 ##Other Stuff
+
 Tällä hetkellä löytyy "ScreenCapture" branch Masterin lisäksi, jota kannattaa myös vilkaista.
 
 Olen käyttänyt Issue tabia documentaationa muutoksille ja uusille ominaisuuksille, sinne voi mennä 
